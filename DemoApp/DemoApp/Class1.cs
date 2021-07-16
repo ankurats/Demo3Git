@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DemoApp
 {
-    class Program
+   public class Class1
     {
-        static void Main(string[] args)
+        public List<string> GetList()
         {
-            Console.WriteLine("Hello World !!");
+            return new List<string> { "Noida", "Pine " };
         }
     }
 }
